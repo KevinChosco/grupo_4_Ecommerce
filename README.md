@@ -30,7 +30,7 @@
 	2. Ofrecer promociones y descuentos especiales para incentivar a los clientes a probar sus productos.
     3. Utilizar las redes sociales y el marketing por correo electrónico para mantener a su audiencia informada sobre nuevos productos y promociones.
 
-###### Referencias de inspiración
+## Referencias de inspiración
 
 
 [Adidas](https://www.adidas.com.ar/hombre)
@@ -50,7 +50,7 @@
 [MegaSport](https://www.megasports.com.ar/)
 
 
-###### GRUPO 4
+## GRUPO 4
 **INTEGRANTES:**
 * Agustina Belén Mamaní
 * Carlos Ignacio Gareca
