@@ -14,21 +14,21 @@
 **Lista de productos:**  
 
 
-	1.Camisetas deportivas para hombres y mujeres
-	2.Pantalones cortos y leggings deportivos para hombres y mujeres
-	3.Sudaderas y chaquetas deportivas para hombres y mujeres
-	4.Calzado deportivo para hombres y mujeres
-	5.Balones de fútbol, baloncesto, hockey y tenis
-	6.Raquetas de tenis y palos de hockey
-	7.Protecciones para deportes de contacto como espinilleras y cascos
-	8.Accesorios deportivos como botellas de agua, toallas y mochilas
-    9.Equipamiento para entrenamiento en casa como pesas, bandas elásticas y colchonetas
+	1. Camisetas deportivas para hombres y mujeres
+	2. Pantalones cortos y leggings deportivos para hombres y mujeres
+	3. Sudaderas y chaquetas deportivas para hombres y mujeres
+	4. Calzado deportivo para hombres y mujeres
+	5. Balones de fútbol, baloncesto, hockey y tenis
+	6. Raquetas de tenis y palos de hockey
+	7. Protecciones para deportes de contacto como espinilleras y cascos
+	8. Accesorios deportivos como botellas de agua, toallas y mochilas
+    9. Equipamiento para entrenamiento en casa como pesas, bandas elásticas y colchonetas
 
 ##### ¿Cómo ajustaremos nuestra oferta a ese público?
 
-	1.Ofrecer una amplia variedad de tallas y estilos para adaptarse a las diferentes preferencias y necesidades de su audiencia.
-	2.Ofrecer promociones y descuentos especiales para incentivar a los clientes a probar sus productos.
-    3.Utilizar las redes sociales y el marketing por correo electrónico para mantener a su audiencia informada sobre nuevos productos y promociones.
+	1. Ofrecer una amplia variedad de tallas y estilos para adaptarse a las diferentes preferencias y necesidades de su audiencia.
+	2. Ofrecer promociones y descuentos especiales para incentivar a los clientes a probar sus productos.
+    3. Utilizar las redes sociales y el marketing por correo electrónico para mantener a su audiencia informada sobre nuevos productos y promociones.
 
 ###### Referencias de inspiración
 
@@ -48,3 +48,14 @@
 [Sportline](https://www.sportline.com.ar/)
 
 [MegaSport](https://www.megasports.com.ar/)
+
+
+###### GRUPO 4
+**INTEGRANTES:**
+* Agustina Belén Mamaní
+* Carlos Ignacio Gareca
+* Gonzalo Soto
+* Gonzalo Ariel Urzagasti
+* Alvaro Aramayo
+* Alejandra Mariana Silisque
+* Kevin Chosco
