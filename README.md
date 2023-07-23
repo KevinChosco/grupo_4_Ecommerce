@@ -1,4 +1,4 @@
-# ProyectoFitFusion
+# Proyecto FitFusion
 
 ##### ¿Quién será nuestra audiencia objetivo?
 **Preguntas de ayuda:**  
