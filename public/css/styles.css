@@ -32,3 +32,17 @@
     justify-content: right;
     text-align: right;
 }
+
+footer{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+footer li{
+    text-decoration: none;
+    list-style: none;
+}
