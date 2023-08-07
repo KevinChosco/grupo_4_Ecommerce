@@ -3,6 +3,68 @@
     padding: 0;
 }
 
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    background-color: hwb(0 91% 7%);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login input {
+border:none;
+padding: 5px;
+border-radius: 5px;
+margin: 10px 0;
+}
+.input-box i {
+    font-size: 15px;
+    
+}
+    
+.recuperoPass {
+    font-size: 90%;
+    text-align: left;    
+    margin-top: 0px;
+    color: rgb(161, 156, 156);
+}
+.recuperoPass a {
+    display: block;
+    text-decoration: none;
+    color: hsla(110, 2%, 53%, 0.71);
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.recuperoPass a:hover {
+    color: #35db14;
+}
+.boton {
+    background: #35db14;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   color: #333;
+
+    
+}
 .menu{
     display: flex;
     flex-direction: row;

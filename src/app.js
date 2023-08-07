@@ -14,8 +14,8 @@ app.get("/registro.html",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/formulario-registro.html"))
     })
 
-app.get("/login.html",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/formulario-login.html"))
+app.get("/login",(req,res)=>{
+    res.sendFile(path.join(__dirname,"/views/login.html"))
     })
 
 app.get("/producto-detalle.html",(req,res)=>{
