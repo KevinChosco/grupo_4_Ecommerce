@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-main{
+.form-login{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -107,4 +107,85 @@ footer{
 footer li{
     text-decoration: none;
     list-style: none;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex-wrap: wrap;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-slider {
+    max-width: 400px;
+    max-height: 350px;
+    object-fit: contain;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .navigation label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: gray;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  #slide1:checked ~ .slides { transform: translateX(0); }
+  #slide2:checked ~ .slides { transform: translateX(-100%); }
+  #slide3:checked ~ .slides { transform: translateX(-200%); }
+  
+  #slide1:checked ~ .navigation label:nth-child(1) { background: white; }
+  #slide2:checked ~ .navigation label:nth-child(2) { background: white; }
+  #slide3:checked ~ .navigation label:nth-child(3) { background: white; }
+
+.contenedor-prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
+
+.card{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    text-align: center;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.img-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
 }
