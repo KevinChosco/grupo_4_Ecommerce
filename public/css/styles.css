@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+  font-family: 'Kanit', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
 
 .form-login{
     display:flex;
@@ -65,11 +69,15 @@ margin: 10px 0;
 
     
 }
+nav{
+  background-color: #000;
+  color:#ffffff;
+}
 .menu{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -78,10 +86,12 @@ margin: 10px 0;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
+    color:#ffffff;
 }
 
 .menu-items a{
     text-decoration: none;
+    color:#ffffff;
 }
 
 .menu-items li{
@@ -94,6 +104,46 @@ margin: 10px 0;
     justify-content: right;
     text-align: right;
 }
+/* Estilo para el botón */
+.btn-buscador {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-family: 'Kanit', sans-serif;
+}
+
+.btn-buscador:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+/* Estilo para el input que utiliza el botón */
+.input-with-btn-buscador {
+  /* display: flex;
+  align-items: center; */
+  height: 25px;
+  border-radius: 2% ;
+}
+
+.input-with-btn-buscador input[type="text"] {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+
+.input-with-btn-buscador .btn-buscador {
+  border-radius: 0 5px 5px 0;
+}
 
 footer{
     flex-direction: row;
@@ -102,6 +152,12 @@ footer{
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    background-color: #000;
+    color: #ffffff;
+}
+
+footer a{
+  color: #ffffff;
 }
 
 footer li{
@@ -175,6 +231,11 @@ footer li{
     align-items: center;
     align-content: center;
 
+}
+section a{
+    text-decoration: none;
+    list-style: none;
+    color: #000000  ;
 }
 
 .card{
@@ -267,4 +328,16 @@ footer li{
     padding: 20px;
   }
 
+  .fa-cart-shopping{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #000;
+  }
+ .box-icon-carrito{
+  margin-right: 30px;
+ }
   
