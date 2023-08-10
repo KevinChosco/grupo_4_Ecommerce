@@ -49,6 +49,7 @@
 
 [MegaSport](https://www.megasports.com.ar/)
 
+## LINK TRELLO: ## https://trello.com/invite/b/y7LHfwDY/ATTI925509faf27fe48513115d49977bab725FDB2CC9/sprint-2
 
 ## GRUPO 4
 **INTEGRANTES:**
