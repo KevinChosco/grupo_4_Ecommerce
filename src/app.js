@@ -22,7 +22,7 @@ app.get("/detalle-producto.html",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/detalle-producto.html"))
     })
 
-app.get("/carrito.html",(req,res)=>{
+app.get("/carrito-de-compras.html",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/carrito-de-compras.html"))
     })
    
