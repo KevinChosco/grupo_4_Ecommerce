@@ -356,7 +356,6 @@ section a {
 }
 .box-icon-carrito {
   margin-right: 30px;
-<<<<<<< HEAD
 }
 
 /*Pagina de resgiter.html*/
@@ -434,8 +433,7 @@ section a {
   -webkit-transform: translate(0px, 5px);
   -moz-transform: translate(0px, 5px);
 }
-=======
- }
+
   
  /* estilos para la pagina del carrito */
  .main-carrito {
@@ -546,4 +544,3 @@ section a {
   text-align: center;
   
 }
->>>>>>> 308587561b88b47fd6bd7870a760a4b55f14bf8e
