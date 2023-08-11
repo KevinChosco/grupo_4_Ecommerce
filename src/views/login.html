@@ -11,57 +11,68 @@
 <body>
     <header>
         <div class="forms-nav">
-            <a href="\login">Iniciar sesion |</a>
-            <a href="">Registrarse</a>
+          <a href="/login">Iniciar sesion |</a>
+          <a href="/registro">Registrarse</a>
         </div>
-        <nav style="background-color: cadetblue;"">
-            <div class="menu">
-                <img class="img-logo" src="./img/logo-mercado-liebre.svg" style="width: 350px; height: 70px;">
-                <i class="fa-solid fa-bars"></i>
-                <div class="menu-items">
-                    <ul class="menu">
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Hombre</a></li>
-                        <li><a href="">Mujer</a></li>
-                        <li><a href="">Deportes</a></li>
-                        <li><a href="">Ofertas</a></li>
-                    </ul> 
-                </div>
-                <div class="buscador">
-                <form action=""  method="get">
-                    <input
-                      type="text"
-                      name=""
-                      id=""
-                      placeholder="Buscar productos, marcas"
-                    />
-                    <button type="submit">enviar</button>
-                  </form>
-                  <a href="">Comprá en cuotas y sin tarjeta de crédito</a>
-                </div>
+        <nav>
+          <div class="menu">
+            <img class="img-logo" src="./img/logo.jpeg" />
+            <!--<i class="fa-solid fa-bars"></i>-->
+            <!--Menu de navegación-->
+            <div class="menu-items">
+              <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="">Hombre</a></li>
+                <li><a href="">Mujer</a></li>
+                <li><a href="">Deportes</a></li>
+                <li><a href="">Ofertas</a></li>
+              </ul>
             </div>
+            <!--Fin Menu de navegación-->
+            <!--Search bar-->
+            <div class="searchbar-iconos">
+            <div class="buscador">
+              <form action="" method="get">
+                <input class="input-with-btn-buscador" type="text" placeholder="Buscar"/>
+                <button class="btn-buscador" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></button>
+              </form>
+            </div>
+            <!--Fin Search bar-->
+            <div class="box-icon-carrito">
+              <a
+                href="./carrito-de-compras.html"
+                style="border-radius: 3%; background: #000"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+          </div>
+          </div>
         </nav>
-    
-    </header>
+      </header>
     <main>
-        <div class="form-login"> 
-            <form action="respuesta.js" method="post" class="login">
-                <h3>Iniciar sesión</h3>
+        <div class="content-login"> 
+            <h1 class="title-form-login">Iniciar sesión</h1>
+            <img class="avatar-login" src="./img/avatar.png" alt="">
+            
+            <!--Inicio formulario-->
+            <form class="form-login" action="/" method="get" >
             <div class="input-box">
-                <input type="text" name="Email" id="Email" placeholder="E-mail" />
-                <i class="fa-solid fa-user"></i>
+                <p><i class="icono-login fa-solid fa-user"></i></p>
+                <p class="input-login"><input type="text" name="Email" id="Email" placeholder="E-mail"/></p>
+                
             </div>
             <div class="input-box">
-                <input type="password" name="pass" id="pass" placeholder="Contraseña"/>
-                <i class="fa-solid fa-lock"></i>
+                <p><i class="icono-login fa-solid fa-lock"></i></p>
+                <p class="input-login"><input type="password" name="pass" id="pass" placeholder="Contraseña"/></p>
             </div>
             <div class="recuperoPass">
                 <label for="recordar">Recordarme</label>
                 <input type="checkbox" name="recordar" value="recordar"  />
                 <a href="#">¿Olvidaste tu contraseña?</a>
             </div>
-            <button type="submit" class="boton">Enviar</button>
-            </form> 
+            </form>
+            <button type="submit" class="boton">Enviar</button> 
+            <!--Fin formulario-->
     </div>
 
     </main>
