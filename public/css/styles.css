@@ -89,7 +89,7 @@ nav {
 .btn-buscador {
   background-color: #f5f5f5;
   padding: 5px 5px;
-  font-family: "Kanit", sans-serif;
+  /*font-family:'Kanit', sans-serif ;*/
   border-radius: 50%;
   border: none;
   position: relative;
@@ -157,12 +157,13 @@ nav {
   flex-wrap: wrap;
   flex-direction: row;
   font-size: 20px;
-  padding: 10px;
+  width: 74%;
 }
 .recuperoPass a {
   text-decoration: none;
  width: 100%;
- padding: 10px;
+ padding-top: 15px;
+ padding-bottom: 20px;
 }
 .recuperoPass a:hover {
   color: #35db14;
@@ -170,28 +171,33 @@ nav {
 .boton {
   background: #35db14;
   border: none;
-  outline: none;
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border-radius: 10px;
-  text-align: center;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
-  color: #333;
+}
+.boton:hover{
+  background-color:#2fd79d;
 }
 
 footer {
-  flex-direction: row;
+  width: 100%;
+  height: 30%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
-  align-items: center;
   background-color: #000;
   color: #ffffff;
+  padding-top: 3%;
 }
-
+.logo-footer{
+  width: 20%;
+}
+.logo-footer>.img-logo{
+ width: 100%;
+}
 footer a {
   color: #ffffff;
 }
@@ -201,6 +207,28 @@ footer li {
   list-style: none;
 }
 
+/*SLider*/
+/*
+.cool-slider{
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+.cool-slider>img{
+  width: 0%;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: .5s ease;
+}
+.cool-slider>img:hover{
+  cursor: crosshair;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(100%);
+}
+*/
 .carrusel {
   display: flex;
   justify-content: center;
@@ -233,7 +261,6 @@ footer li {
   max-height: 350px;
   object-fit: contain;
 }
-
 .navigation {
   display: flex;
   justify-content: center;
@@ -269,7 +296,7 @@ footer li {
 #slide3:checked ~ .navigation label:nth-child(3) {
   background: white;
 }
-
+/*Fin slide*/
 .contenedor-prod {
   display: flex;
   flex-wrap: wrap;
@@ -550,7 +577,7 @@ section a {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  font-family:'Kanit', sans-serif ;
+  /*font-family:'Kanit', sans-serif ;*/
 }
 
 .checkout-button {
@@ -560,7 +587,7 @@ section a {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-family:'Kanit', sans-serif ;
+  /*font-family:'Kanit', sans-serif ;*/
   
 }
 .contenedor-precio-total{
