@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ("./partials/head") %>
+  <body>
+    <%- include ("./partials/header") %>
+    <main>
+      <div class="content-register">
+        <h1 class="title-form-register">Registrate</h1>
+        <form class="form-register" action="/" method="POST">
+          <p><input type="text" name="name" placeholder="Nombre Completo" /></p>
+
+          <label>Fecha de Nacimiento</label>
+          <p><input type="date" name="fechaNacimiento" /></p>
+
+          <p><input type="number" name="telefono" placeholder="Telefono" /></p>
+          
+            <label>Sexo</label>
+            <div class="select-genero">
+            <p><input type="radio" name="genero" value="Femenino" id="femenino"/></p>
+            <label class="type-gen" for="femenino">Femenino</label>
+            <p><input type="radio" name="genero" value="Masculino" id="masculino"/></p>
+            <label class="type-gen" for="masculino">Masculino</label>
+          </div>
+          <p>
+            <input
+              type="email"
+              name="correo"
+              placeholder="Correo Electronico"
+            />
+          </p>
+          <p>
+            <input type="password" name="password" placeholder="Contraseña" />
+          </p>
+          <p>
+            <input
+              type="password"
+              name="password"
+              placeholder="Confirmar contraseña"
+            />
+          </p>
+          <div class="accept-condition">
+          <p>
+            <input type="checkbox" name="terminos" id="termycond"/>
+          </p>
+          <label for="termycond">Aceptas los terminos y Condiciones</label>
+        </div>
+        <div class="button-form-register"><button>Registrate</button></div>    
+          
+        </form>
+      </div>
+    </main>
+    <%- include ("./partials/footer") %>
+  </body>
+</html>

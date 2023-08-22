@@ -2,29 +2,32 @@ const express = require("express")
 const app = express()
 const path = require("path")
 
-const port=process.env.PORT ?? 8080;
+const port = 8081;
 
 app.use(express.static("public"))
 
 app.listen(port, () => console.log("servidor escuchando en el puerto",port))
 
+app.set("view engine","ejs")
+app.set("views", "src/views")
+
 app.get("/",(req,res)=>{
-res.sendFile(path.join(__dirname,"/views/home.html"))
+res.render("home")
 })
 
 app.get("/registro",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/register.html"))
+    res.render("register")
     })
 
 app.get("/login",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/login.html"))
+    res.render("login")
     })
 
 app.get("/detalle-producto.html",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/detalle-producto.html"))
+    res.render("detalle-producto")
     })
 
 app.get("/carrito-de-compras.html",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/carrito-de-compras.html"))
+    res.render("carrito-de-compras")
     })
    

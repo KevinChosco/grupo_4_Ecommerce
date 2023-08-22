@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ("./partials/head") %>
+<body>
+  <%- include ("./partials/header") %>
+    <main>
+        <div class="content-login"> 
+            <h1 class="title-form-login">Iniciar sesión</h1>
+            <img class="avatar-login" src="./img/avatar.png" alt="">
+            
+            <!--Inicio formulario-->
+            <form class="form-login" action="/" method="get" >
+            <div class="input-box">
+                <p><i class="icono-login fa-solid fa-user"></i></p>
+                <p class="input-login"><input type="text" name="Email" id="Email" placeholder="E-mail"/></p>
+                
+            </div>
+            <div class="input-box">
+                <p><i class="icono-login fa-solid fa-lock"></i></p>
+                <p class="input-login"><input type="password" name="pass" id="pass" placeholder="Contraseña"/></p>
+            </div>
+            <div class="recuperoPass">
+                <input type="checkbox" name="recordar" value="recordar"/>
+                <label for="recordar">Recordarme</label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="submit" class="boton">Enviar</button> 
+            </form>
+            <!--Fin formulario-->
+    </div>
+
+    </main>
+    <%- include ("./partials/footer") %>
+</body>
+</html>
