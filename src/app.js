@@ -30,4 +30,8 @@ app.get("/detalle-producto.html",(req,res)=>{
 app.get("/carrito-de-compras.html",(req,res)=>{
     res.render("carrito-de-compras")
     })
+
+app.get("/formulario-producto", (req,res)=>{
+    res.render("formulario-producto")
+})
    

@@ -6,6 +6,44 @@
   <body>
 
     <%- include ("./partials/header") %>
+
+    <div class="carrusel">
+      <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked />
+        <input type="radio" name="slider" id="slide2" />
+        <input type="radio" name="slider" id="slide3" />
+
+        <div class="slides">
+          <div class="slide" id="first">
+            <img
+              class="img-slider"
+              src="https://i.pinimg.com/564x/38/4c/a9/384ca963dc0650378ffdb2a00739d802.jpg"
+              alt="Imagen 1"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="img-slider"
+              src="https://i.pinimg.com/564x/25/fd/75/25fd758317a515cf704f737fffa7058b.jpg"
+              alt="Imagen 2"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="img-slider"
+              src="https://i.pinimg.com/564x/d4/97/bc/d497bc26db59f7f1097b7f49b1e77c91.jpg"
+              alt="Imagen 3"
+            />
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+      </div>
     
     <main>
       <h1 style="text-align: center">Lo Mas Visto</h1>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ("./partials/head") %>
+<body>
+    <%- include ("./partials/header") %>
+
+    <main>
+        <h1 style="text-align: center;">Formulario de Producto - Ropa Deportiva</h1>
+        <div class="cont-form-prod">
+    <form action="#" method="post">
+        <label class="label.-form-prod" for="nombre">Nombre del Producto:</label>
+        <input class="input-form-prod" type="text" id="nombre" name="nombre" required>
+        
+        <label class="label.-form-prod" for="categoria">Categoría:</label>
+        <select class="slect-form-prod" id="categoria" name="categoria">
+            <option value="ropa">Ropa</option>
+            <option value="calzado">Calzado</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+        
+        <label class="label-form-prod" for="descripcion">Descripción:</label>
+        <textarea class="textarea-form-prod" id="descripcion" name="descripcion" rows="4"></textarea>
+        
+        <label class="label.-form-prod" for="precio">Precio:</label>
+        <input class="input-form-prod" type="text" id="precio" name="precio" required>
+        
+        <label class="label.-form-prod" for="tallas">Tallas Disponibles:</label>
+        <input class="input-form-prod" type="text" id="tallas" name="tallas">
+        
+        <label class="label.-form-prod" for="colores">Colores Disponibles:</label>
+        <input class="input-form-prod" type="text" id="colores" name="colores">
+        
+        <button class="button-form-prod" type="submit">Crear Producto</button>
+    </form>
+</div>
+    </main>
+    
+
+    <%- include ("./partials/footer") %>
+</body>
+</html>
