@@ -627,7 +627,6 @@ section a {
   border-radius: 4px;
   cursor: pointer;
   font-family:  "Kanit", sans-serif;
-  text-align: center;
 }
 .button-form-prod:hover {
   background-color:#35db14;
