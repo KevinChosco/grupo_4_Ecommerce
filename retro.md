@@ -8,4 +8,6 @@ SPRINT-2
 En el segundo sprint tuvimos más comunicación y logramos resolver todos los requerimientos del trabajo. Lo que si tenemos que mejorar es la organización del grupo y no dejar a ultimo momento las actividades asignadas, como así también avisar con tiempo a nuestros compañeros si no logramos resolver alguna cuestión para que ellos tomen nuestro lugar o bien nos brinden su ayuda.
 Tenemos que empezar a implementar reuniones semanales para lograr los objetivos de la página y conseguir un excelente e-commerce para el cliente.
 
+SPRINT-3
 
+En este sprint tuvimos muchas dificultades con respecto a diferencias de horarios y actividades, honestamente no pudimos coordinar para lograr fianalizar como corresponde el sprint 3 pero de todas maneras se presento un adelanto del mismo y actualmente ya se finalizo con todo lo restante. Por otro lugar la comunicación sigue siendo un punto debil para el equipo, con altas y bajas en el mismo pero seguimos trabajando en ello. Debemos reforzar el trabajo colaborativo, cumplimiento de tareas, ideales a fines y lo que queremos lograr en el proyecto.
