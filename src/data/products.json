@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"playera",
+        "price":35000,
+        "img":"1.jpg",
+        "color":"azul",
+        "talla":"M"
+    },
+    {
+        "id":2,
+        "name":"conjunto femenino tenis",
+        "price":35000,
+        "img":"3.jpg",
+        "color":"blanco y negro",
+        "talla":"M"
+    },
+    {
+        "id":3,
+        "name":"conjunto masculino basquet",
+        "price":35000,
+        "img":"4.jpg",
+        "color":"rojo",
+        "talla":"M"
+    },
+    {
+        "id":4,
+        "name":"conjunto femenino basquet",
+        "price":35000,
+        "img":"5.jpg",
+        "color":"bordo",
+        "talla":"M"
+    },
+    {
+        "id":5,
+        "name":"conjunto femenino morado ",
+        "price":35000,
+        "img":"conjunto-f-morado.png",
+        "color":"morado",
+        "talla":"M"
+    },
+    {
+        "id":6,
+        "name":"conjunto femenino negro ",
+        "price":35000,
+        "img":"conjunto-femenino-negro.png",
+        "color":"negro",
+        "talla":"M"
+    }
+]
