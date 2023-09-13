@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include ("../partials/head") %>
+  <%- include ("../partials/head" , { title: product.name })%>
 <body>
   <%- include ("../partials/header") %>
     <main>
@@ -28,8 +28,22 @@
                 <img style="width: 300px;height: 100px;" src="https://tse1.mm.bing.net/th?id=OIP.KkM2jb2JufxOOA6d1tNjWwHaCb&pid=Api&P=0&h=180" alt="">
                 <label>Envío</label>
                 <input type="text" placeholder="Código Postal">
-                <p>Precio: $<%= product.precio %></p>
+                <p>Precio: $<%= product.price %></p>
                 <button>Agregar al Carrito</button>
+                <a
+                href="/products/edit/<%= product.id %>"
+                class="action-button edit"
+                >EDITAR PRODUCTO</a
+              >
+              <form
+                action="/products/delete/<%= product.id %>"
+                method="POST"
+                style="display: inline-flex"
+              >
+                <button type="submit" class="action-button delete">
+                  ELIMINAR
+                </button>
+              </form>
               </div>
             </div>
           </div>

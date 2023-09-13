@@ -7,6 +7,12 @@ productRouter.get("/detail/:id", productControllers.detail);
 
 productRouter.get("/", productControllers.index)
 
+productRouter.get("/edit/:id", productControllers.edit)
+
+productRouter.post("/edit/:id", productControllers.update)
+
+productRouter.post("/delete/:id", productControllers.destroy)
+
 // productRouter.get("/detail", productControllers.showDetail);
 
 // productRouter.get("/detalle-producto.html", productControllers.showDetalleProduc);
