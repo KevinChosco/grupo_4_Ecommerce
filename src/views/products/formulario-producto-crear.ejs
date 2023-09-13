@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include ("../partials/head" , {title: 'Creando: ' + productToEdit.name }) %>
+    <%- include ("../partials/head" , {title: 'Creando' }) %>
 <body>
     <%- include ("../partials/header") %>
 
@@ -9,7 +9,7 @@
         <div class="cont-form-prod">
     <form action="#" method="post">
         <label class="label.-form-prod" for="nombre">Nombre del Producto: </label>
-        <input class="input-form-prod" type="text" id="nombre" name="nombre" required placeholder="<%= productToEdit.name %>">
+        <input class="input-form-prod" type="text" id="nombre" name="nombre" required placeholder="">
         
         <label class="label.-form-prod" for="categoria">Categoría:</label>
         <select class="slect-form-prod" id="categoria" name="categoria">
@@ -22,13 +22,13 @@
         <textarea class="textarea-form-prod" id="descripcion" name="descripcion" rows="4"></textarea>
         
         <label class="label.-form-prod" for="precio">Precio: </label>
-        <input class="input-form-prod" type="text" id="precio" name="precio" required placeholder="<%= productToEdit.price %>">
+        <input class="input-form-prod" type="text" id="precio" name="precio" required placeholder="">
         
         <label class="label.-form-prod" for="tallas">Tallas Disponibles: </label>
-        <input class="input-form-prod" type="text" id="tallas" name="tallas" placeholder="<%= productToEdit.talla %>">
+        <input class="input-form-prod" type="text" id="tallas" name="tallas" placeholder="">
         
         <label class="label.-form-prod" for="colores">Colores Disponibles: </label>
-        <input class="input-form-prod" type="text" id="colores" name="colores" placeholder="<%= productToEdit.color %>">
+        <input class="input-form-prod" type="text" id="colores" name="colores" placeholder="">
         
         <button class="button-form-prod" type="submit">Guardar Producto</button>
     </form>
