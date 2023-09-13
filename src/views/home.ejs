@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<%- include ("./partials/head") %>
+<%- include ("./partials/head", {title: 'Inicio'}) %>
   
   <body>
 
@@ -48,105 +48,46 @@
     <main>
       <h1 style="text-align: center">Lo Mas Visto</h1>
       <section class="contenedor-prod">
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/38/4c/a9/384ca963dc0650378ffdb2a00739d802.jpg"
-              alt=""
-            />
-            <p class="">$66.770</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/25/fd/75/25fd758317a515cf704f737fffa7058b.jpg"
-              alt=""
-            />
-            <p class="">$56.000</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/d4/97/bc/d497bc26db59f7f1097b7f49b1e77c91.jpg"
-              alt=""
-            />
-            <p class="">$66.770</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/38/4c/a9/384ca963dc0650378ffdb2a00739d802.jpg"
-              alt=""
-            />
-            <p class="">$66.770</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
+        <% products.map(product =>{ %>
+          <a href="/products/detail/<%= product.id %>" 
+            ><div class="card">
+              <img
+                class="img-card"
+                src="/img/products/<%=product.img%>"
+                alt=""
+              />
+              <p class=""><%= product.name %></p>
+              <!-- <p class="oferta">40% off</p> -->
+              <div class="contenedor-prod">
+                <p>Color: <%= product.color %> </p>  
+                <p> Talla: <%= product.talla %></p>
+              </div>
+              <p><%= product.price %>$</p>
+              
+            </div></a>
+            <% }) %>
+        
       </section>
       <h1>Deportes</h1>
       <section class="contenedor-prod">
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/38/4c/a9/384ca963dc0650378ffdb2a00739d802.jpg"
-              alt=""
-            />
-            <p class="">$66.770</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/25/fd/75/25fd758317a515cf704f737fffa7058b.jpg"
-              alt=""
-            />
-            <p class="">$56.000</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/d4/97/bc/d497bc26db59f7f1097b7f49b1e77c91.jpg"
-              alt=""
-            />
-            <p class="">$40.000</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
-        <a href="./detalle-producto.html"
-          ><div class="card">
-            <img
-              class="img-card"
-              src="https://i.pinimg.com/564x/38/4c/a9/384ca963dc0650378ffdb2a00739d802.jpg"
-              alt=""
-            />
-            <p class="">$66.770</p>
-            <p class="oferta">40% off</p>
-            <p>Conjunto Nike</p>
-          </div></a
-        >
+        <% products.map(product =>{ %>
+          <a href="/products/detail" 
+            ><div class="card">
+              <img
+                class="img-card"
+                src="/img/products/<%=product.img%>"
+                alt=""
+              />
+              <p class=""><%= product.name %></p>
+              <!-- <p class="oferta">40% off</p> -->
+              <div class="contenedor-prod">
+                <p>Color: <%= product.color %> </p>  
+                <p> Talla: <%= product.talla %></p>
+              </div>
+              <p><%= product.price %>$</p>
+              
+            </div></a>
+            <% }) %>
       </section>
     </main>
 

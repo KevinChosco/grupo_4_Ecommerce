@@ -6,9 +6,9 @@ const mainRouter = express.Router();
 
 mainRouter.get("/", mainControllers.showHome);
     
-mainRouter.get("/registro" ,mainControllers.showRegister);
+// mainRouter.get("/registro" ,mainControllers.showRegister);
     
-mainRouter.get("/login", mainControllers.showLogin);
+// mainRouter.get("/login", mainControllers.showLogin);
     
        
 module.exports = mainRouter;
