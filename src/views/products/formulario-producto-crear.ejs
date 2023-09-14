@@ -7,28 +7,32 @@
     <main>
         <h1 style="text-align: center;">Formulario de Producto - Ropa Deportiva</h1>
         <div class="cont-form-prod">
-    <form action="#" method="post">
-        <label class="label.-form-prod" for="nombre">Nombre del Producto: </label>
-        <input class="input-form-prod" type="text" id="nombre" name="nombre" required placeholder="">
+    <!-- <form action="/products/create" method="post" enctype="multipart/form-data"> -->
+        <form action="/products" method="post" enctype="multipart/form-data">
+        <label class="label.-form-prod" for="name">Nombre del Producto: </label>
+        <input class="input-form-prod" type="text" id="name" name="name" required placeholder="">
         
-        <label class="label.-form-prod" for="categoria">Categoría:</label>
+        <!-- <label class="label.-form-prod" for="categoria">Categoría:</label>
         <select class="slect-form-prod" id="categoria" name="categoria">
             <option value="ropa">Ropa</option>
             <option value="calzado">Calzado</option>
             <option value="accesorios">Accesorios</option>
-        </select>
+        </select> -->
         
-        <label class="label-form-prod" for="descripcion">Descripción:</label>
-        <textarea class="textarea-form-prod" id="descripcion" name="descripcion" rows="4"></textarea>
+        <!-- <label class="label-form-prod" for="">Descripción:</label>
+        <textarea class="textarea-form-prod" id="descripcion" name="" rows="4"></textarea> -->
         
-        <label class="label.-form-prod" for="precio">Precio: </label>
-        <input class="input-form-prod" type="text" id="precio" name="precio" required placeholder="">
+        <label class="label.-form-prod" for="price">Precio: </label>
+        <input class="input-form-prod" type="number" id="price" name="price" required placeholder="">
+
+        <label class="label.-form-prod" for="img">Foto: </label>
+        <input class="input-form-prod" type="file" id="img" name="img" placeholder="">
         
-        <label class="label.-form-prod" for="tallas">Tallas Disponibles: </label>
-        <input class="input-form-prod" type="text" id="tallas" name="tallas" placeholder="">
+        <label class="label.-form-prod" for="talla">Tallas Disponibles: </label>
+        <input class="input-form-prod" type="text" id="talla" name="talla" placeholder="">
         
-        <label class="label.-form-prod" for="colores">Colores Disponibles: </label>
-        <input class="input-form-prod" type="text" id="colores" name="colores" placeholder="">
+        <label class="label.-form-prod" for="color">Colores Disponibles: </label>
+        <input class="input-form-prod" type="text" id="color" name="color" placeholder="">
         
         <button class="button-form-prod" type="submit">Guardar Producto</button>
     </form>
