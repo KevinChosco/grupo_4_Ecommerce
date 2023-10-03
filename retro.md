@@ -11,3 +11,8 @@ Tenemos que empezar a implementar reuniones semanales para lograr los objetivos 
 SPRINT-3
 
 En este sprint tuvimos muchas dificultades con respecto a diferencias de horarios y actividades, honestamente no pudimos coordinar para lograr fianalizar como corresponde el sprint 3 pero de todas maneras se presento un adelanto del mismo y actualmente ya se finalizo con todo lo restante. Por otro lugar la comunicación sigue siendo un punto debil para el equipo, con altas y bajas en el mismo pero seguimos trabajando en ello. Debemos reforzar el trabajo colaborativo, cumplimiento de tareas, ideales a fines y lo que queremos lograr en el proyecto.
+
+SPRINT-4
+
+Nos resulto bastante complicado organizarnos y llegar a tiempo con el trabajo, debemos comprometernos más.
+Mejoramos en lo que concierne al compañerismo  y comunicación pero aún nos cuesta llegar con los plazos establecidos, a pesar de eso logramos sacar adelante el sprint y finalizar con lo que habia quedado pendiente en el anterior. Estamos intentando organizarnos mejor y no dejar todo a último momento.  

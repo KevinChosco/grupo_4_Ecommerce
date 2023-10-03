@@ -49,11 +49,10 @@
 
 [MegaSport](https://www.megasports.com.ar/)
 
-**LINK TRELLO:**  **https://trello.com/b/9EcjDNSa/sprint4**
+**LINK TRELLO:**  **https://trello.com/invite/b/jS3BYQ4z/ATTI22e368e785dccb8a618565d647e53fc8E2807C4D/sprint-5**
 
 ## GRUPO 4
 **INTEGRANTES:**
 * Agustina Belén Mamaní
 * Carlos Ignacio Gareca
 * Alvaro Aramayo
-* Kevin Chosco
