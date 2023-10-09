@@ -1,42 +1,73 @@
 [
-    {
-        "nombre" : "Juan",
-        "apellido" : "Perez",
-        "fechaNac" : "11/06/2003",
-        "telefono"  : 3883645309,
-        "sexo" : "hombre",
-        "categoria" : "comprador",
-        "email" : "juanperes@gmail.com",
-        "password" : "12345678"  
-    },
-    {
-        "nombre" : "Juana",
-        "apellido" : "Perez",
-        "fechaNac" : "19/11/1999",
-        "telefono"  : 3887832934,
-        "sexo" : "mujer",
-        "categoria" : "vendedor",
-        "email" : "juanitaperez@gmail.com",
-        "password" : "87654321"  
-    },
-    {
-        "nombre" : "Leo",
-        "apellido" : "Messi",
-        "fechaNac" : "12/01/1987",
-        "telefono"  : 3881010100,
-        "sexo" : "hombre",
-        "categoria" : "comprador",
-        "email" : "messi10@gmail.com",
-        "password" : "elgoat10"  
-    },
-    {
-        "nombre" : "Ignacio",
-        "apellido" : "Gareca",
-        "fechaNac" : "12/01/2002",
-        "telefono"  : 3885876487,
-        "sexo" : "hombre",
-        "categoria" : "vendedor",
-        "email" : "newignaciogareca@gmail.com",
-        "password" : "43791739"  
-    }
+ {
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "fechaNac": "11/06/2003",
+  "telefono": 3883645309,
+  "sexo": "hombre",
+  "categoria": "comprador",
+  "img": "",
+  "email": "juanperes@gmail.com",
+  "password": "12345678"
+ },
+ {
+  "nombre": "Juana",
+  "apellido": "Perez",
+  "fechaNac": "19/11/1999",
+  "telefono": 3887832934,
+  "sexo": "mujer",
+  "categoria": "vendedor",
+  "img": "",
+  "email": "juanitaperez@gmail.com",
+  "password": "87654321"
+ },
+ {
+  "nombre": "Leo",
+  "apellido": "Messi",
+  "fechaNac": "12/01/1987",
+  "telefono": 3881010100,
+  "sexo": "hombre",
+  "categoria": "comprador",
+  "img": "",
+  "email": "messi10@gmail.com",
+  "password": "elgoat10"
+ },
+ {
+  "nombre": "Ignacio",
+  "apellido": "Gareca",
+  "fechaNac": "12/01/2002",
+  "telefono": 3885876487,
+  "sexo": "hombre",
+  "categoria": "vendedor",
+  "img": "",
+  "email": "newignaciogareca@gmail.com",
+  "password": "43791739"
+ },
+ {
+  "id": null,
+  "name": "Nadia sol",
+  "fechaNacimiento": "",
+  "telefono": null,
+  "pass": [
+   "",
+   ""
+  ],
+  "correo": "",
+  "imagen": "avatar.png"
+ },
+ {
+  "id": 1,
+  "name": "Nadia sol",
+  "fechaNacimiento": "2000-05-09",
+  "telefono": 5192989,
+  "genero": "Femenino",
+  "categoria": "Comprador",
+  "pass": [
+   "agustina",
+   "agustina"
+  ],
+  "correo": "agus@gmail.com",
+  "imagen": "user_1696825382929.jpg",
+  "terminos": "on"
+ }
 ]

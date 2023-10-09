@@ -6,7 +6,7 @@
     <main>
       <div class="content-register">
         <h1 class="title-form-register">Registrate</h1>
-        <form class="form-register" action="/" method="POST">
+        <form class="form-register" action="/users/registro" method="POST" enctype="multipart/form-data">
           <p><input type="text" name="name" placeholder="Nombre Completo" /></p>
 
           <label>Fecha de Nacimiento</label>
@@ -21,6 +21,17 @@
             <p><input type="radio" name="genero" value="Masculino" id="masculino"/></p>
             <label class="type-gen" for="masculino">Masculino</label>
           </div>
+          <label>Categoria</label>
+            <div class="select-genero">
+            <p><input type="radio" name="categoria" value="Comprador" id="comprador"/></p>
+            <label class="type-cat" for="comprador">Comprador</label>
+            <p><input type="radio" name="categoria" value="Vendedor" id="vendedor"/></p>
+            <label class="type-cat" for="vendedor">Vendedor</label>
+          </div>
+          <div> <label class="label.-form-prod" for="img">Foto: </label>
+        <input class="input-form-prod" type="file" id="img" name="img" placeholder="">
+      </div>
+          <div class="form-register">
           <p>
             <input
               type="email"
@@ -28,23 +39,28 @@
               placeholder="Correo Electronico"
             />
           </p>
+        </div>
+        <div class="form-register">
           <p>
             <input type="password" name="password" placeholder="Contraseña" />
           </p>
-          <p>
+        </div>
+        <div class="form-register">
+          <p >
             <input
               type="password"
               name="password"
               placeholder="Confirmar contraseña"
             />
           </p>
-          <div class="accept-condition">
+        </div>
+        <div class="accept-condition" >
           <p>
             <input type="checkbox" name="terminos" id="termycond"/>
           </p>
           <label for="termycond">Aceptas los terminos y Condiciones</label>
         </div>
-        <div class="button-form-register"><button>Registrate</button></div>    
+        <div><button type="submit">Registrate</button></div>    
           
         </form>
       </div>
